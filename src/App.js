@@ -44,10 +44,10 @@ const App = () => {
         <div className="bg-white shadow-lg rounded-lg p-8 relative z-10 w-full max-w-sm mt-40 pl-10 lg:mt-0 lg:ml-0">
           <div className="flex items-center space-x-4">
             <div>
-              <h2 className="text-4xl font-bold text-gradient">
+              <h2 className="text-4xl pb-1 font-bold text-gradient">
                 Sweater in Everyday Cotton
               </h2>
-              <p className="text-custom-purple mt-2">
+              <p className="text-custom-purple mt-4 mb-2">
                 The perfect boxy-fit sweater, The Boxy Sweater in Everyday
                 Cotton is a layering essential. Featuring a chunky rib stitch at
                 the crew neckline, along the hem, and sleeve cuffs, it has
