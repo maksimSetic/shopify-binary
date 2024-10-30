@@ -34,14 +34,14 @@ const App = () => {
         />
         
         {/* Moving Boxes */}
-        <div className="absolute left-16 top-240 mt-40 flex space-x-4">
+        <div className="absolute left-0 top-240 mt-40 flex space-x-4 ">
           <img src={dollarSign} className="animate-up-down w-4 h-6" />
           <div className="w-10 h-10 bg-box-purple rounded animate-up-down"></div> {/* Smaller box */}
           <div className="w-16 h-16 bg-box-pink rounded animate-down-up"></div>
           <img src={dollarSign} className="animate-up-down w-6 h-8" /> {/* Original size box */}
         </div>
 
-        <div className="bg-white shadow-lg rounded-lg p-8 relative z-10 w-full max-w-sm mt-40 pl-10 lg:mt-0 lg:ml-0">
+        <div className="bg-white shadow-lg rounded-lg p-8 relative z-10 w-full max-w-sm mt-40 ml-20 pl-10 lg:mt-0 lg:ml-0">
           <div className="flex items-center space-x-4">
             <div>
               <h2 className="text-4xl pb-1 font-bold text-gradient">
